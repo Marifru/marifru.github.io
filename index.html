@@ -3,136 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marina Igoumnova</title>
+    <title>Join & Grow - MasterMind pour Femmes Entrepreneurs</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
         }
         header {
-            background: #333;
-            color: #fff;
-            padding-top: 30px;
-            min-height: 70px;
-            border-bottom: #77aaff 3px solid;
-        }
-        header a {
-            color: #fff;
-            text-decoration: none;
-            text-transform: uppercase;
-            font-size: 16px;
-        }
-        header ul {
-            padding: 0;
-            list-style: none;
-        }
-        header li {
-            float: left;
-            display: inline;
-            padding: 0 20px 0 20px;
-        }
-        header #branding {
-            float: left;
-        }
-        header #branding h1 {
-            margin: 0;
-        }
-        header nav {
-            float: right;
-            margin-top: 10px;
-        }
-        section#showcase {
-            min-height: 400px;
-            background: url('https://placekitten.com/1200/400') no-repeat 0 -400px;
+            background-color: #ff6f61;
+            color: white;
+            padding: 30px 0;
             text-align: center;
-            color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-        section#showcase h1 {
-            margin-top: 100px;
-            font-size: 55px;
-            margin-bottom: 10px;
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
         }
-        section#showcase p {
-            font-size: 20px;
+        header p {
+            font-size: 1.2em;
+            margin: 10px 0 0 0;
         }
-        .content {
-            padding: 20px;
-            background: #fff;
-            margin-top: 20px;
+        main {
+            padding: 40px 20px;
         }
-        .portfolio img {
-            width: 100%;
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        h2 {
+            font-size: 2em;
+            color: #ff6f61;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
         }
         footer {
-            background: #333;
-            color: #fff;
+            background-color: #ff6f61;
+            color: white;
             text-align: center;
-            padding: 30px;
-            margin-top: 30px;
+            padding: 15px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer p {
+            margin: 0;
+            font-size: 1em;
+        }
+        .contact-link, .linkedin-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #ff6f61;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+        }
+        .contact-link:hover, .linkedin-link:hover {
+            background-color: #e65b50;
         }
     </style>
 </head>
 <body>
     <header>
         <div class="container">
-            <div id="branding">
-                <h1>Marina Igoumnova</h1>
-                <p>Formatrice IA & Product Manager Learning AI</p>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#projects">Projets</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+            <h1>Join & Grow</h1>
+            <p>MasterMind pour Femmes Entrepreneurs</p>
         </div>
     </header>
-
-    <section id="showcase">
+    <main>
         <div class="container">
-            <h1>Bienvenue sur ma page personnelle</h1>
-            <p>Découvrez mon parcours et mes réalisations</p>
+            <section>
+                <h2>À propos de nous</h2>
+                <p>Notre MasterMind Join & Grow est destiné aux femmes qui souhaitent entreprendre. Rejoins-nous si tu as besoin de t'inspirer, échanger, brainstormer... ou simplement te dynamiser grâce à l'énergie du réseau !</p>
+                <a class="contact-link" href="https://calendly.com/marina_igoumnova" target="_blank">Prendre Contact</a>
+                <a class="linkedin-link" href="https://www.linkedin.com/in/marina-igoumnova/?locale=fr_FR" target="_blank">Profil LinkedIn</a>
+            </section>
         </div>
-    </section>
-
-    <div class="container">
-        <section id="portfolio" class="content">
-            <h2>Portfolio de créations visuelles</h2>
-            <div class="portfolio">
-                <img src="https://example.com/ton_image1.jpg" alt="Création 1">
-                <img src="https://example.com/ton_image2.jpg" alt="Création 2">
-                <img src="https://example.com/ton_image3.jpg" alt="Création 3">
-            </div>
-        </section>
-
-        <section id="projects" class="content">
-            <h2>Projets professionnels récents</h2>
-            <p>Voici quelques-uns de mes projets récents dans le domaine de l'intelligence artificielle et de la gestion de produits.</p>
-            <!-- Ajouter des descriptions et des images de projets ici -->
-        </section>
-
-        <section id="contact" class="content">
-            <h2>Contact</h2>
-            <p>Vous pouvez me suivre sur les réseaux sociaux :</p>
-            <ul>
-                <li><a href="https://www.linkedin.com/in/marina-igoumnova/">LinkedIn</a></li>
-                <li><a href="https://marigoum.blogspot.com/">Blog</a></li>
-                <!-- Ajouter d'autres liens sociaux ici -->
-            </ul>
-        </section>
-    </div>
-
+    </main>
     <footer>
-        <p>Marina Igoumnova &copy; 2024</p>
+        <div class="container">
+            <p>&copy; 2024 Join & Grow. Tous droits réservés.</p>
+        </div>
     </footer>
 </body>
 </html>
